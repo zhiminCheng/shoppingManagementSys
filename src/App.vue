@@ -9,7 +9,8 @@
 export default {
   name: 'app',
   data:{
-    massage:"hello world"
+    massage:"hello world"，
+    name:"jim"
   },
   components: {
   }
