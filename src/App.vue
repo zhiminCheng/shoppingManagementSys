@@ -1,19 +1,14 @@
 <template>
   <div id="app">
-    <div>{{massage}}</div>
+    <!-- 路由占位符 -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'app',
-  data:{
-    massage:"hello world",
-    name:"jim"
-  },
-  components: {
-  }
+  name: 'app'
 }
 </script>
 
